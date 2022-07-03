@@ -11,11 +11,12 @@
 
 body {
   background-color: rgb(46, 46, 46);
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
   width: 60%;
-  height: 200px;
+  /*  height: 200px; */
   border: 3px rgb(201, 201, 201) solid;
   margin: 40px auto;
 }
@@ -25,7 +26,8 @@ body {
   width: 100%;
   margin: auto;
   background-color: #4d6d63;
-  margin-top: 15px;
+  /*   margin-top: 15px;
+ */
   clip-path: polygon(0 0, 100% 0, 98% 100%, 2% 100%);
 }
 
@@ -37,16 +39,32 @@ body {
 .header_h1 {
   color: white;
   margin: auto;
-
   padding: 10px;
 }
 
 .header__div3 {
   height: 10px;
   width: 100%;
-  /* margin: auto; */
   background-color: #4d6d63;
-  /*   margin-top: 15px;
- */
   clip-path: polygon(2% 1%, 98% 0, 100% 100%, 0 100%);
+}
+
+fieldset {
+  border: none;
+  display: block;
+}
+
+.contenedor {
+  background-color: #d6e2de;
+  width: 60%;
+  margin: auto;
+}
+
+.contenedor .form .formulario1__label {
+  display: block;
+  text-align: center;
+}
+
+.input {
+  align-items: center;
 }
